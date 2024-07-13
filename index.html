@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>Parking App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="/script/app.js" type="module"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>PARKING</h1>
+    </header>
+
+    <main>
+
+    <form action="" class="user">
+     <h1>User Registration</h1>
+     <input type="text" placeholder="Name*"required id="userName"/>
+     <input type="digits" placeholder="Contact*"required pattern='[0-9]{10}' id="userContact" />
+     <select id="role" name="">
+      <option disabled selected>-- Select type --</option>
+      <option value="student">Student</option>
+      <option value="faculty">Faculty</option>
+     </select>
+     <input type="Submit" value="Submit" id="saveUserBtn">
+    </form>
+
+    <form action="" class="vehicle">
+     <h1>Vehicle Registration</h1>
+      <input type="text" placeholder="VehicleId*"required id="vehicleId"/>
+       <select id="vehicleType" name="" >
+        <option disabled selected>-- Select type --</option>
+        <option value="bike">Bike</option>
+        <option value="car">Car</option>
+        <option value="cycle">cycle</option>
+       </select>
+      <input type="Submit" value="Submit" id="vehicleSaveBtn">
+    </form>
+
+    <form class="passChoice">
+      <h1>Pass-choice</h1>
+    </form>
+
+    <section class="ticket">
+    </section>
+    
+    </main>
+    <footer>&copy; copyright 2024-25</footer>
+    </body>
+</html>
